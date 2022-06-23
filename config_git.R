@@ -61,11 +61,17 @@ usethis::use_git()
 usethis::use_github()
 
 #### 7. Create fork ######################################################
+
 usethis::create_from_github(repo_spec = 'user_github/repo_name',
                             destdir = '/projects',
                             fork = TRUE)
 
 
+#### 8. Pull request ######################################################
 
+usethis::pr_init(branch = "dev") # create new branch from master and switch over
+usethis::pr_push()
+
+#### 9. Create fork ######################################################
 
 ## THAT'S IT!
