@@ -72,6 +72,4 @@ usethis::create_from_github(repo_spec = 'user_github/repo_name',
 usethis::pr_init(branch = "dev") # create new branch from master and switch over
 usethis::pr_push()
 
-#### 9. Create fork ######################################################
-
 ## THAT'S IT!
