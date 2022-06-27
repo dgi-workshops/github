@@ -44,7 +44,7 @@ usethis::edit_r_environ()
 usethis::git_sitrep()
 
 ## Your username and email should be stated correctly in the output. 
-## Also, the report shoud cotain something like:
+## Also, the report should contain something like:
 ## 'Personal access token: '<found in env var>''
 
 ## If you are still having troubles, read the output carefully.
@@ -71,5 +71,7 @@ usethis::create_from_github(repo_spec = 'user_github/repo_name',
 
 usethis::pr_init(branch = "dev") # create new branch from master and switch over
 usethis::pr_push()
+
+
 
 ## THAT'S IT!
